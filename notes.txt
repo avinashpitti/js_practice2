@@ -1,0 +1,45 @@
+1. variable
+A variable is a container used to store data.
+ex:name="Avinash"
+here, name is a variable, "Avinash" value stored in it.
+variables allow us to store and reuse data.
+let name='Avinash'
+console.log(name)
+Instead of writing "Avinash" again and again, we store it in a variable
+
+ways to declare variables in js:
+var age=25
+let city='Bangalore"
+const="India"
+
+var- always try to avoid it
+var name='Rahul'
+console.log(name)
+problems with var:
+can be redeclared
+scope issues
+var a=10
+var a=20
+console.log(a) # 20(It overwrites the value,which can cause bugs)
+
+let- can change value, but can't redeclare
+let age=25;
+let age=26; #you can't redeclare the value
+age=26; But you can reassign the value
+
+const-means value can't change
+const pi=3.14;
+console.log(pi);
+you can neither redeclare nor reassign
+
+
+
+
+
+
+
+
+
+
+
+
