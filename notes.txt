@@ -68,6 +68,9 @@ undefined : variable declared but no value
 Array:
     An array is used to store multiple values in a single variable.
 
+object:
+    An object is used to store data in key:value pairs
+    
 
 
 
