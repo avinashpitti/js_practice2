@@ -62,6 +62,13 @@ It includes:
     decimals
 
 
+null: null means an empty value that is intentionally assigned
+undefined : variable declared but no value
+
+Array:
+    An array is used to store multiple values in a single variable.
+
+
 
 
 
