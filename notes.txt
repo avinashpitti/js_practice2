@@ -33,6 +33,24 @@ console.log(pi);
 you can neither redeclare nor reassign
 
 
+string :
+A string is a sequence of characters used to represent text
+
+ways to create a string:
+single quotes:
+let course='Javascript'
+double quotes:
+let city="Bangalore"
+Template strings(Backticks)
+let message=`hello, avinash`
+
+string methods:
+toUpperCase()
+toLowerCase()
+includes()
+trim() etc
+
+
 
 
 
