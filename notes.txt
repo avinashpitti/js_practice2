@@ -74,6 +74,7 @@ object:
 
 
 operators:
+
 Arithmetic operators:
 Arithmetic operators are used to perform mathematical calculations
 
@@ -82,6 +83,15 @@ comparison operators:
     comparison operators are used to compare 2 values and return a 
     Boolean
     ==,===,!=,!==
+
+
+Logical operators:
+    Logical operators are used to combine multiple conditions
+    They always return Boolean
+    &&(AND) Both conditions must be true
+    || (OR) Atleast one conditon to be true
+    !(NOT)  Reverses the result
+
 
 
 
