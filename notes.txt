@@ -73,6 +73,12 @@ object:
     
 
 
+operators:
+Arithmetic operators:
+Arithmetic operators are used to perform mathematical calculations
+
+
+
 
 
 
