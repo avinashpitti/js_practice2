@@ -78,7 +78,10 @@ Arithmetic operators:
 Arithmetic operators are used to perform mathematical calculations
 
 
-
+comparison operators:
+    comparison operators are used to compare 2 values and return a 
+    Boolean
+    ==,===,!=,!==
 
 
 
