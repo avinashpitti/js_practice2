@@ -93,6 +93,10 @@ Logical operators:
     !(NOT)  Reverses the result
 
 
+Assignment operators:
+    Assignment operators are used to assign values to variables
+
+
 
 
 
