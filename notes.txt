@@ -101,6 +101,28 @@ If statement:
     The if statement is used to execute code only if a conditon is true
 
 
+switch statement:
+    The switch statement is used when we have multiple possible values 
+    for one variable.
+    It is often used instead of many else if.
+
+switch(expression){
+    case value1:
+        // code
+        break;
+
+    case value2:
+        // code
+        break;
+
+    default:
+        // code
+}
+
+switch:checks the variable
+case:possible value
+break:stops execution
+default:runs if no execution
 
 
 
