@@ -97,6 +97,12 @@ Assignment operators:
     Assignment operators are used to assign values to variables
 
 
+If statement:
+    The if statement is used to execute code only if a conditon is true
+
+
+
+
 
 
 
