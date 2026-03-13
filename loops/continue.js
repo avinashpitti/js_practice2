@@ -84,3 +84,13 @@ while (q <= 15) {
     }
     q++; // This always runs, regardless of the 'if' condition
 }
+
+// print numbers 1 to 15 but skip even numbers
+console.log('print odd numbers')
+let o=1;
+while(o<=15){
+    if(o%2 !==0){
+        console.log(o);
+    }
+    o++;
+}
