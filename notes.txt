@@ -125,6 +125,14 @@ break:stops execution
 default:runs if no execution
 
 
+Nested loop:
+    A loop inside another loop
+    outer loop control rows
+    inner loop control columns
+
+
+
+
 
 
 
