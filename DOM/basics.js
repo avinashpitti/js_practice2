@@ -20,6 +20,7 @@
 // To work with elements, first we need to select elements
 getElementById()
 getElementsByClassName()
+getElementsByTagName()
 querySelector()
 querySelectorAll()
 
