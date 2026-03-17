@@ -86,5 +86,5 @@ let traders=[
     {name:'sundar',age:51,loc:'california'}
 ];
 
-console.log(traders[1].name);
+console.log(traders[1].name );
 
