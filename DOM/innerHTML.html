@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>innerhtml</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <h1 id="intro"></h1>
+    <img id="myImage" src="cat.jpeg" alt="cat-image">
+    <p id="dynamicdate"></p>
+    <script>
+        let demo=document.getElementById('demo');
+        demo.innerHTML='welcome aboard';
+        demo.style.color='red';
+        demo.style.fontSize='2rem';
+        demo.style.backgroundColor='yellow';
+        demo.style.textAlign='center';
+
+        let intro=document.getElementById('intro');
+        intro.innerHTML='This is heading';
+        intro.style.color='green';
+
+        document.getElementById('myImage').src='dog.webp';
+        
+        document.getElementById('dynamicdate').innerHTML=Date();
+        document.write(Date())
+
+    </script>
+</body>
+</html>
