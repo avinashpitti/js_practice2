@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>getElementByClassName</title>
+</head>
+<body>
+    <p class="p1">para 1</p>
+    <p class="p1">para 2</p>
+    <p class="p1">para 3</p> 
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+    
+    <script>
+        const x=document.getElementsByClassName('p1');
+        document.getElementById('demo1').innerHTML='The first element is '+
+        x[0].innerHTML;
+        document.getElementById('demo2').innerHTML='The second element is '+
+        x[1].innerHTML;
+
+    </script>
+</body>
+</html>
