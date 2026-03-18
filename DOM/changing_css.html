@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>changing css</title>
+    <style>
+        .active{
+            text-align: center;
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <p id="p2">para 2</p>
+
+    <h1 id="id1">This is first heading</h1>
+
+    <h2 id="id2">This is second heading</h2>
+
+    <h3 id="id3">This is third heading</h3>
+
+    <button id="btn">Button 1</button>
+    <button id="btn2">Button 2</button>
+    <button id="btn3">Button 3</button>
+    <script>
+        document.getElementById('p2').style.color='green';
+        document.getElementById('p2').style.backgroundColor='yellow';
+        document.getElementById('p2').style.textAlign='center';
+        document.getElementById('p2').style.fontSize='24px';
+
+        document.getElementById('btn').onclick=function(){
+            document.getElementById('id1').style.color='red';
+            document.getElementById('id1').style.background='aqua';
+            document.getElementById('id1').style.textAlign='center';
+        }
+
+
+        let isChanged=false;
+        document.getElementById('btn2').onclick=function(){
+            let h2=document.getElementById('id2');
+
+            if(!isChanged){
+                // Apply styles
+                h2.style.textAlign='center';
+                h2.style.color='white';
+                h2.style.background='yellowgreen';
+                isChanged=true;
+            }else{
+                // Reset styles
+                h2.style.textAlign='';
+                h2.style.color='';
+                h2.style.background='';
+                isChanged=false;
+            }
+        }
+
+
+        document.getElementById('btn3').onclick=function(){
+            document.getElementById('id3').classList.toggle('active');
+        }
+
+
+    </script>
+</body>
+</html>
