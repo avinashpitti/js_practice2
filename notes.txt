@@ -1,6 +1,6 @@
 1. variable
 A variable is a container used to store data.
-ex:name="Avinash"
+ex:name="Avinash" 
 here, name is a variable, "Avinash" value stored in it.
 variables allow us to store and reuse data.
 let name='Avinash'
