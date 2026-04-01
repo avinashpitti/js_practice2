@@ -1,5 +1,5 @@
-let i=10
-do{
-    console.log(i)
-    i++
-}while(i<=5)
+let information={my_name:'Avinash',course:'BCA',city:'Hyderabad'}
+
+for (let info in information){
+    console.log(info+": "+information[info]);
+}
