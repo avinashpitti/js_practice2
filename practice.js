@@ -1,28 +1,11 @@
-let day='friday';
-
-if(day=='monday'){
-    console.log('Today is monday');
-}
-else if(day=='tuesday'){
-    console.log('Today is Tuesday')
+for(i=1;i<=10;i++){
+    console.log(i);
 }
 
-else if(day=='wednesday'){
-    console.log('Today is wednesday')
+for (j=2;j<=20;j+=2){
+    console.log(j);
 }
 
-else if(day=='thursday'){
-    console.log('Today is Thursday')
-}
-else if(day=='friday'){
-    console.log('Today is friday')
-}
-else if(day=='saturday'){
-    console.log('Today is saturday')
-}
-else if(day=='sunday'){
-    console.log('Today is sunday')
-}
-else{
-    console.log('Enter correrct day')
+for (k=10;k>=1;k--){
+    console.log(k);
 }
