@@ -1,11 +1,22 @@
-for(i=1;i<=10;i++){
-    console.log(i);
+let numbers=[4,8,3,9,67,22,19,45]
+
+for (let number of numbers){
+    console.log(number);
 }
 
-for (j=2;j<=20;j+=2){
-    console.log(j);
+
+let fruits=['avocado','berries','cherry','dragon']
+
+for (let fruit of fruits){
+    console.log(fruit);
 }
 
-for (k=10;k>=1;k--){
-    console.log(k);
+
+let my_name='Avinash'
+
+for (let chars of my_name){
+    console.log(chars);
 }
+
+
+
