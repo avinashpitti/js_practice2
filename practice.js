@@ -1,5 +1,5 @@
-let information={my_name:'Avinash',course:'BCA',city:'Hyderabad'}
+let fruits=['apple','orange','banana']
 
-for (let info in information){
-    console.log(info+": "+information[info]);
-}
+fruits.forEach(fruit=>{
+    console.log(fruit);
+})
