@@ -1,25 +1,28 @@
-let day='Thursday';
+let day='friday';
 
-switch(day){
-    case 'Monday':
-        console.log('Today is monday');
-        break
-    case 'Tuesday':
-        console.log('Today is Tuesday');
-        break
-    case 'Wednesday':
-        console.log('Today is Wednesday');
-        break
-    case 'Thursday':
-        console.log('Today is Thursday');
-        break
-    case 'Friday':
-        console.log('Today is Friday');
-        break
-    case 'Saturday':
-    case 'Sunday':
-        console.log('Enjoy the weekend')
-        break
-    default:
-        console.log('Enter correct day');
+if(day=='monday'){
+    console.log('Today is monday');
+}
+else if(day=='tuesday'){
+    console.log('Today is Tuesday')
+}
+
+else if(day=='wednesday'){
+    console.log('Today is wednesday')
+}
+
+else if(day=='thursday'){
+    console.log('Today is Thursday')
+}
+else if(day=='friday'){
+    console.log('Today is friday')
+}
+else if(day=='saturday'){
+    console.log('Today is saturday')
+}
+else if(day=='sunday'){
+    console.log('Today is sunday')
+}
+else{
+    console.log('Enter correrct day')
 }
