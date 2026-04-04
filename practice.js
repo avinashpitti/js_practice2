@@ -1,15 +1,10 @@
 let person={
-    name:'Alice',
-    age:25,
-    country:'Australia'
+    name:'Avinash',
+    age:21,
+    city:'Bangalore',
+    greet:function(){
+        return `I am ${this.name} a ${this.age} years old student`
+    }
 }
 
-person.city='perth'
-console.log(person) 
-
-delete person.age;
-
-console.log(person);
-
-person.name='alex'
-console.log(person)
+console.log(person.greet())
