@@ -1,12 +1,7 @@
-let fruits=['mango','banana','avocado','apple','berry']
+let nums=[1,2,3]
 
-let sorted=fruits.sort()
-console.log(sorted)
+let doubled=nums.map(n=>n*2)
+console.log(doubled)
 
-// numbers need a compare function
-let nums=[34,7,19,2,44]
-let ascending=nums.sort((a,b)=>(a-b))
-console.log(ascending)
-
-let descending=nums.sort((a,b)=>(b-a))
-console.log(descending)
+let squared=nums.map(n=>n**2)
+console.log(squared)
