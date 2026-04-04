@@ -1,9 +1,5 @@
-let nums=[1,2,3,4,5]
+let words=['avinash','is','learning','javascript']
 
-nums.forEach(n=>{
-    console.log(n)
-})
-
-nums.forEach(n=>{
-    console.log(n**2)
-})
+const joined=words.join(" ")
+console.log(joined);
+console.log(typeof(joined))
