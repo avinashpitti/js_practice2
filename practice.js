@@ -1,5 +1,6 @@
-let words=['avinash','is','learning','javascript']
+let a=[1,2,3]
+let b=[4,5,6]
 
-const joined=words.join(" ")
-console.log(joined);
-console.log(typeof(joined))
+let merge=a.concat(b)
+
+console.log(merge)
