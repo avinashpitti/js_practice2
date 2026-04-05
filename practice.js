@@ -1,29 +1,11 @@
-let a=[1,2,3]
-let b=[4,5,6]
-
-let c=[...a,...b]
-
-console.log(c)
-
-
-let original=[10,20,30]
-let copy=[...original]
-// let copy=original;
-copy.push(40);
-
-console.log(copy);
-console.log(original);
-
-
-let student={
-    name:'Avinash',
-    age:21
+let nums=[10,20,30]
+function sum(a,b,c){
+    return a+b+c;
 }
 
-let updatedStudent={
-    ...student,
-    city:'bengaluru'
-}
+console.log(sum(...nums))
 
-console.log(student);
-console.log(updatedStudent);
+let arr=[1,2,3]
+
+let newArr=[0,...arr,4,5]
+console.log(newArr)
