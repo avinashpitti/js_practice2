@@ -1,11 +1,15 @@
-let nums=[10,20,30]
-function sum(a,b,c){
-    return a+b+c;
-}
+let source={a:1};
+let target={b:2,c:3};
 
-console.log(sum(...nums))
+Object.assign(source,target);
+console.log(target);
 
-let arr=[1,2,3]
+let person={name:'Alice',age:21};
+Object.freeze(person);
 
-let newArr=[0,...arr,4,5]
-console.log(newArr)
+console.log(person)
+// person.age=22;
+// console.log(age);
+
+// person.city='chennai';
+// console.log(city);
