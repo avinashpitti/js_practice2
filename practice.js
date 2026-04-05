@@ -7,6 +7,6 @@ let person={
     }
 }
 
-let {address:{city,pin}}=person
-console.log(city);
-console.log(pin);
+let {name,...rest}=person;
+console.log(name)
+console.log(rest)
