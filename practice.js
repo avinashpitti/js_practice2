@@ -5,8 +5,8 @@ let person={
     state:'Karnataka'
 }
 
-let {name,age,city}=person;
+let {name:student_name,age:student_age}=person
+let {country='srilanka'}=person
 
-console.log(city)
-console.log(name)
-console.log(age)
+console.log(student_age)
+console.log(country)
