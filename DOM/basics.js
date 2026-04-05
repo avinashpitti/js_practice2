@@ -27,3 +27,4 @@ querySelectorAll()
 // changing content
 innerText
 innerHTML
+textContent

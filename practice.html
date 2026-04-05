@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+    <p>para1</p>
+    <p>para2</p>
+    <p>para3</p>
+
+    
+
+    <script>
+        const x=document.querySelectorAll('p');
+        x[0].style.color='red';
+        x.forEach(p=>{
+            p.style.backgroundColor='yellow'
+        })
+    </script>
+</body>
+
+</html>
