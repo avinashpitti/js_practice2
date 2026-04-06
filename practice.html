@@ -7,18 +7,12 @@
     <title>DOM</title>
 </head>
 <body>
-    <p>para1</p>
-    <p>para2</p>
-    <p>para3</p>
-
-    
-
+    <button id="btn">Click me!</button>
     <script>
-        const x=document.querySelectorAll('p');
-        x[0].style.color='red';
-        x.forEach(p=>{
-            p.style.backgroundColor='yellow'
-        })
+        let btn=document.getElementById('btn');
+        btn.onclick=function(){
+            alert('button clicked!')
+        }
     </script>
 </body>
 
