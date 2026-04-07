@@ -1,15 +1,47 @@
-// ✅ Clean, promise-based
-// fetch("https://jsonplaceholder.typicode.com/users/1")
-//   .then(response => response.json())   // parse JSON
-//   .then(user => console.log(user.name))
-//   .catch(error => console.log("Error:", error));
+// function* gen(){
+//     yield 1;
+//     yield 2;
+//     yield 3;
+// }
 
-  fetch("https://jsonplaceholder.typicode.com/users/1")
-  .then(response => {
-    console.log(response.status);     // 200
-    console.log(response.ok);         // true (status 200-299)
-    console.log(response.statusText); // "OK"
-    console.log(response.url);        // request URL
-    return response.json();           // parse body as JSON ✅
-  })
-  .then(data => console.log(data));
+// let g=gen();
+
+// console.log(g.next());
+// console.log(g.next());
+// console.log(g.next());
+// console.log(g.next());
+
+
+function* numbers() {
+  for (let i = 1; i <= 3; i++) {
+    yield i;
+  }
+}
+
+for (let num of numbers()) {
+  console.log(num);
+}
+
+function* gen() {
+  console.log("Start");
+  yield 10;
+  console.log("Middle");
+  yield 20;
+  console.log("End");
+}
+
+let g = gen();
+
+// g.next();
+// g.next();
+g.next();
+
+
+
+let arr = [10, 20];
+
+let it = arr[Symbol.iterator]();
+
+console.log(it.next());
+console.log(it.next());
+console.log(it.next());
